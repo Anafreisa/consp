@@ -1,0 +1,49 @@
+.navbar-cor {
+	color: white;
+	background-color: rgba(76,38,114, 0.9);
+}
+
+.fonte-titulo{
+	font-family: 'Pacifico', cursive;
+}
+
+.imagem-carrossel {
+	object-fit: cover;
+	object-position: 0 80%;
+	height: 500px;
+}
+
+.nav-bar-menu {
+	color: white;
+	border-color: rgba(76,38,114, 1);
+}
+
+.navbar-cor-menu {
+	border-color: red;
+}
+
+.fonte-menu {
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+}
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 1.5s ease;
+}
+
+.inner:hover img {
+	transform: scale(1.5);
+}
+
+.card-posicao-imagem {
+	object-fit: cover; 
+	height: 200px;
+}
+
+.card-largura {
+	max-width: 18rem;
+}
